@@ -23,6 +23,6 @@ const users= require("./routes/users");
 app.use('/api', users)
 
 
-// app.listen(PORT, (req, res) => {
-//   console.log('app is running in port 3000');
-// });
+app.listen(PORT, (req, res) => {
+  console.log('app is running in port 3000');
+});
