@@ -27,4 +27,4 @@ app.listen(PORT, (req, res) => {
   console.log('app is running in port 3000');
 });
 
-module.exports = app;
+// module.exports = app;
