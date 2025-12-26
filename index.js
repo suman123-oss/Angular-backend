@@ -10,7 +10,7 @@ require('./config/dbConnection')
 
 app.use(cors({
   // origin:'http://localhost:4200'
-  origin:'https://angular-frontend-fawn.vercel.app'
+  // origin:'https://angular-frontend-fawn.vercel.app'
 }));
 
 app.get('/', (req, res) => {
